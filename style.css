@@ -8,7 +8,6 @@
     --color-white: #d8dee9;
 }
 
-/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +95,6 @@ body {
     justify-content: center;
 }
 
-/* Estilos de entrada de texto */
 .input-title {
     flex: 1;
     padding: 10px 15px;
@@ -108,7 +106,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos de botón */
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
@@ -129,7 +126,6 @@ button {
     background-color: #a1a1a1;
 }
 
-/* Listas */
 ul {
     list-style-type: none;
     color: var(--color-text);
@@ -146,7 +142,6 @@ ul {
     text-align: center;
 }
 
-/* Botón de sortear título */
 .button-draw {
     display: flex;
     align-items: center;
@@ -163,4 +158,17 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.name-list li {
+    display: inline-block;           
+    background-color: #5e81ac;
+    color: #d8dee9;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 9999px;
+    border: 2px solid #4c566a;
+    font-family: "Intel", monospace;
+    font-size: 18px;
+    text-align: center;
 }
